@@ -9,11 +9,11 @@
 
 
 
-<h3 align="center">Swag India</h3>
+<h3 align="center">Bibliophile</h3>
 
 ---
 
-<p align="center"> Few lines describing your project.
+<p align="center"> My project contains various books for the book readers
     <br> 
 </p>
 
