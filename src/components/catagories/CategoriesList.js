@@ -82,7 +82,7 @@ const Menu = [
     {
         id : 11,
         image : "assets/11.webp",
-        name : "Turning points : a journey through challenges",
+        name : "other women",
         category : "crime",
         author : "Emma Flint",
         files : "books/11.epub"
@@ -243,7 +243,7 @@ const Menu = [
         id : 31,
         image : "assets/31.jpg",
         name : "The Stand",
-        category : "horror",
+        category : "thriller",
         author : "Stephen King",
         files : "books/31.pdf"
     },
@@ -251,7 +251,7 @@ const Menu = [
         id : 32,
         image : "assets/32.jpg",
         name : "Dracula",
-        category : "horror",
+        category : "thriller",
         author : "Bram Stokers",
         files : "books/32.pdf"
     },
@@ -259,7 +259,7 @@ const Menu = [
         id : 33,
         image : "assets/33.jpg",
         name : "Flowers in the Attic",
-        category : "horror",
+        category : "thriller",
         author : "Virginia Andrews",
         files : "books/33.pdf"
     },
@@ -267,7 +267,7 @@ const Menu = [
         id : 34,
         image : "assets/34.jpg",
         name : "The Secret History",
-        category : "horror",
+        category : "thriller",
         author : "Donna Tartt",
         files : "books/34.pdf"
     },
@@ -275,7 +275,7 @@ const Menu = [
         id : 35,
         image : "assets/35.jpg",
         name : "The Silence of the Lambs",
-        category : "horror",
+        category : "thriller",
         author : "Thomas Harris",
         files : "books/35.pdf"
     },
@@ -283,7 +283,7 @@ const Menu = [
         id : 36,
         image : "assets/36.jpg",
         name : "And Then There Were None",
-        category : "mystery",
+        category : "crime",
         author : "Agatha Christie",
         files : "books/36.pdf"
     },
@@ -291,7 +291,7 @@ const Menu = [
         id : 37,
         image : "assets/37.jpg",
         name : " The Big Sleep",
-        category : "mystery",
+        category : "crime",
         author : "Raymond Chandler",
         files : "books/37.mobi"
     },
@@ -299,7 +299,7 @@ const Menu = [
         id : 38,
         image : "assets/38.jpg",
         name : "Gone Girl",
-        category : "mystery",
+        category : "crime",
         author : "Gillian Flynn",
         files : "books/38.pdf"
     },
@@ -307,7 +307,7 @@ const Menu = [
         id : 39,
         image : "assets/39.jpg",
         name : "In Cold Blood",
-        category : "mystery",
+        category : "crime",
         author : "Truman Capote",
         files : "books/39.pdf"
     },
@@ -315,7 +315,7 @@ const Menu = [
         id : 40,
         image : "assets/40.jpg",
         name : "The Postman Always Rings Twice",
-        category : "mystery",
+        category : "crime",
         author : "James M. Cain",
         files : "books/40.pdf"
     },
@@ -443,7 +443,7 @@ const Menu = [
         id : 56,
         image : "assets/56.jpg",
         name : "The Mouse That Was",
-        category : "bed",
+        category : "fairy",
         author : "paul choy",
         files : "books/56.pdf"
     },
@@ -451,7 +451,7 @@ const Menu = [
         id : 57,
         image : "assets/57.jpg",
         name : "Ten Little Bunnies",
-        category : "bed",
+        category : "fairy",
         author : "nuril karlin",
         files : "books/57.pdf"
     },
@@ -459,7 +459,7 @@ const Menu = [
         id : 58,
         image : "assets/58.jpg",
         name : "The Witch's Daughter",
-        category : "bed",
+        category : "fairy",
         author : "janaki sooriyarachchi",
         files : "books/58.pdf"
     },
@@ -467,7 +467,7 @@ const Menu = [
         id : 59,
         image : "assets/59.jpg",
         name : "Never Lonely Again",
-        category : "bed",
+        category : "fairy",
         author : "hans withelm",
         files : "books/59.pdf"
     },
@@ -475,7 +475,7 @@ const Menu = [
         id : 60,
         image : "assets/60.jpg",
         name : "The Royal Raven",
-        category : "bed",
+        category : "fairy",
         author : "hans wilhelm",
         files : "books/60.pdf"
     },
@@ -598,6 +598,46 @@ const Menu = [
         category : "kids",
         author : "Edgar Rice Burroughs",
         files : "books/75.epub"
+    },
+    {
+        id : 76,
+        image : "assets/76.jpg",
+        name : "TNPSC-Study-Material-Chemistry",
+        category : "edu",
+        author : " ",
+        files : "books/76.pdf"
+    },
+    {
+        id : 77,
+        image : "assets/77.jpg",
+        name : "Educational Leadership",
+        category : "edu",
+        author : "Harry Tomlinson",
+        files : "books/77.pdf"
+    }, 
+    {
+        id : 78,
+        image : "assets/78.jpg",
+        name : "DEPARTMENT OF FOOD CHEMISTRY AND NUTRITION",
+        category : "edu",
+        author : "Food Science",
+        files : "books/78.pdf"
+    },
+    {
+        id : 79,
+        image : "assets/79.jpg",
+        name : "Introduction to Human Nutrition",
+        category : "edu",
+        author : "Michael J Gibney",
+        files : "books/79.pdf"
+    },
+    {
+        id : 80,
+        image : "assets/80.jpg",
+        name : "Encyclopedia of Diets",
+        category : "edu",
+        author : " ",
+        files : "books/80.pdf"
     },
 
     //second section
@@ -845,7 +885,7 @@ const Menu = [
         id : 31,
         image : "assets/31.jpg",
         name : "The Stand",
-        category : "horror",
+        category : "thriller",
         author : "Stephen King",
         files : "books/31.pdf"
     },
@@ -853,7 +893,7 @@ const Menu = [
         id : 32,
         image : "assets/32.jpg",
         name : "Dracula",
-        category : "horror",
+        category : "thriller",
         author : "Bram Stokers",
         files : "books/32.pdf"
     },
@@ -861,7 +901,7 @@ const Menu = [
         id : 33,
         image : "assets/33.jpg",
         name : "Flowers in the Attic",
-        category : "horror",
+        category : "thriller",
         author : "Virginia Andrews",
         files : "books/33.pdf"
     },
@@ -869,7 +909,7 @@ const Menu = [
         id : 34,
         image : "assets/34.jpg",
         name : "The Secret History",
-        category : "horror",
+        category : "thriller",
         author : "Donna Tartt",
         files : "books/34.pdf"
     },
@@ -877,7 +917,7 @@ const Menu = [
         id : 35,
         image : "assets/35.jpg",
         name : "The Silence of the Lambs",
-        category : "horror",
+        category : "thriller",
         author : "Thomas Harris",
         files : "books/35.pdf"
     },
@@ -885,7 +925,7 @@ const Menu = [
         id : 36,
         image : "assets/36.jpg",
         name : "And Then There Were None",
-        category : "mystery",
+        category : "crime",
         author : "Agatha Christie",
         files : "books/36.pdf"
     },
@@ -893,7 +933,7 @@ const Menu = [
         id : 37,
         image : "assets/37.jpg",
         name : " The Big Sleep",
-        category : "mystery",
+        category : "crime",
         author : "Raymond Chandler",
         files : "books/37.mobi"
     },
@@ -901,7 +941,7 @@ const Menu = [
         id : 38,
         image : "assets/38.jpg",
         name : "Gone Girl",
-        category : "mystery",
+        category : "crime",
         author : "Gillian Flynn",
         files : "books/38.pdf"
     },
@@ -909,7 +949,7 @@ const Menu = [
         id : 39,
         image : "assets/39.jpg",
         name : "In Cold Blood",
-        category : "mystery",
+        category : "crime",
         author : "Truman Capote",
         files : "books/39.pdf"
     },
@@ -917,7 +957,7 @@ const Menu = [
         id : 40,
         image : "assets/40.jpg",
         name : "The Postman Always Rings Twice",
-        category : "mystery",
+        category : "crime",
         author : "James M. Cain",
         files : "books/40.pdf"
     },
@@ -1045,7 +1085,7 @@ const Menu = [
         id : 56,
         image : "assets/56.jpg",
         name : "The Mouse That Was",
-        category : "bed",
+        category : "fairy",
         author : "paul choy",
         files : "books/56.pdf"
     },
@@ -1053,7 +1093,7 @@ const Menu = [
         id : 57,
         image : "assets/57.jpg",
         name : "Ten Little Bunnies",
-        category : "bed",
+        category : "fairy",
         author : "nuril karlin",
         files : "books/57.pdf"
     },
@@ -1061,7 +1101,7 @@ const Menu = [
         id : 58,
         image : "assets/58.jpg",
         name : "The Witch's Daughter",
-        category : "bed",
+        category : "fairy",
         author : "janaki sooriyarachchi",
         files : "books/58.pdf"
     },
@@ -1069,7 +1109,7 @@ const Menu = [
         id : 59,
         image : "assets/59.jpg",
         name : "Never Lonely Again",
-        category : "bed",
+        category : "fairy",
         author : "hans withelm",
         files : "books/59.pdf"
     },
@@ -1077,7 +1117,7 @@ const Menu = [
         id : 60,
         image : "assets/60.jpg",
         name : "The Royal Raven",
-        category : "bed",
+        category : "fairy",
         author : "hans wilhelm",
         files : "books/60.pdf"
     },
@@ -1200,7 +1240,47 @@ const Menu = [
         category : "kids",
         author : "Edgar Rice Burroughs",
         files : "books/75.epub"
-    },   
+    },  
+    {
+        id : 76,
+        image : "assets/76.jpg",
+        name : "TNPSC-Study-Material-Chemistry",
+        category : "edu",
+        author : " ",
+        files : "books/76.pdf"
+    },
+    {
+        id : 77,
+        image : "assets/77.jpg",
+        name : "Educational Leadership",
+        category : "edu",
+        author : "Harry Tomlinson",
+        files : "books/77.pdf"
+    }, 
+    {
+        id : 78,
+        image : "assets/78.jpg",
+        name : "DEPARTMENT OF FOOD CHEMISTRY AND NUTRITION",
+        category : "edu",
+        author : "Food Science",
+        files : "books/78.pdf"
+    },
+    {
+        id : 79,
+        image : "assets/79.jpg",
+        name : "Introduction to Human Nutrition",
+        category : "edu",
+        author : "Michael J Gibney",
+        files : "books/79.pdf"
+    },
+    {
+        id : 80,
+        image : "assets/80.jpg",
+        name : "Encyclopedia of Diets",
+        category : "edu",
+        author : " ",
+        files : "books/80.pdf"
+    },
 
 ]
 export default Menu;

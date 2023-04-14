@@ -4,15 +4,16 @@ import "./Catalogstyle.css"
 import Menu from "../catagories/CategoriesList"
 import Slide from 'react-reveal/Slide';
 import { FaDownload } from "react-icons/fa"
+import { Link } from 'react-router-dom';
+import {BiSearchAlt} from "react-icons/bi"
 
-const Catalog = () => {
+const Catalog = ({to}) => {
   const [item, setstate] = useState(Menu);
   
   const filterItem = (catItem) =>{
     const updateItem = Menu.filter((curentItem) =>{
       return curentItem.category === catItem;
     });
-
     setstate(updateItem);
   }
 
@@ -20,8 +21,8 @@ const Catalog = () => {
     
     <div className='cataloges'>
       <div>
+      <Link to='/search'><BiSearchAlt className='icon' /></Link>
         <h1 className='cat-header'>Categories</h1>
-        
         <div className='catog'>
           <Slide top>
             <button onClick={()=> setstate(Menu)} active>all</button>
@@ -31,20 +32,17 @@ const Catalog = () => {
             <button onClick={() => filterItem('fairy')}>fairy tales</button>
             <button onClick={() => filterItem('fantasy')}>fantasy</button>
             <button onClick={() => filterItem('novel')}>novel</button>
-            <button onClick={() => filterItem('horror')}>horror</button>
-            <button onClick={() => filterItem('mystery')}>mystery</button>
             <button onClick={() => filterItem('romance')}>romance</button>
             <button onClick={() => filterItem('play')}>plays</button>
-            <button onClick={() => filterItem('sifi')}>science fiction</button>
-            <button onClick={() => filterItem('bed')}>bed-time stories</button>
-            <button onClick={() => filterItem('thriller')}>thrillers</button>
-            <button onClick={() => filterItem('auto')}>Autobiography</button>
+            <button onClick={() => filterItem('sifi')}>science-fi</button>
+            <button onClick={() => filterItem('thriller')}>thriller</button>
+           <button onClick={() => filterItem('auto')}>Autobiography</button>
             <button onClick={() => filterItem('kids')}>kids</button>
-          </Slide>
+            <button onClick={() => filterItem('edu')}>Education</button>          </Slide>
         </div>
 
         <div className='cards'>
-          {
+            {            
             item.map((elem) => {
               const { image, name, author, files } = elem;
               return(
