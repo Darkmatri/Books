@@ -222,19 +222,14 @@
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(10rem, 1px));
         gap: 2rem;
-        width: auto;
     }
 
      .container {
         margin-left: 15px;
     }
 
-     .cat-header {
-        display: none;
-    }
-
-    .searchinput {
+    .icon {
         float: none;
-        margin-left: 25px;
+        right: 15%;
     }
 }
