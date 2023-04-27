@@ -32,13 +32,13 @@
 Fully Functional books library website Bibliophile is a responsive book library website. The technologies used in this project are React js. The data is accessed locally using static html template, I am updating to api so that it can be accessed dynamically. I took almost 40 - 50 hrs to complete this project. SkillLync helped me by providing the strutures and technically   for all relevant feature pages.
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
+These instructions will get you the project and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project.
 
 ### Prerequisites
-What things you need to install the software and how to install them.
+You need to install the vs code and how to run react on them.
 
 ```
-Give examples
+
 ```
 
 ### Installing
