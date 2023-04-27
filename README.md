@@ -78,7 +78,6 @@ Your app is ready to be deployed!
  <img width=500px height=200px src="./public/screenshots/Screenshot (88).png" alt="screenshots"></a>
  <img width=500px height=200px src="./public/screenshots/Screenshot (89).png" alt="screenshots"></a>
  <img width=500px height=200px src="./public/screenshots/Screenshot (90).png" alt="screenshots"></a>
- <img width=500px height=200px src="./public/screenshots/Screenshot (91).png" alt="screenshots"></a>
  <img width=500px height=200px src="./public/screenshots/Screenshot (92).png" alt="screenshots"></a>
  <img width=500px height=200px src="./public/screenshots/Screenshot (93).png" alt="screenshots"></a>
  <img width=500px height=200px src="./public/screenshots/Screenshot (94).png" alt="screenshots"></a>
