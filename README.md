@@ -65,21 +65,10 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-## ⛏️ Flow Chart <a name = "flowchart"></a>
-
-![bg width:1000px](./swagindiaflowchart.png)
-
-- [MongoDB](https://www.mongodb.com/) - Database
-- [Express](https://expressjs.com/) - Server Framework
-- [VueJs](https://vuejs.org/) - Web Framework
-- [NodeJs](https://nodejs.org/en/) - Server Environment
-
 ## ✍️ Authors <a name = "authors"></a>
-- [@SkillLymc](https://github.com/kylelobo) - FSD
-
-See also the list of [contributors](https://github.com/kylelobo/The-Documentation-Compendium/contributors) who participated in this project.
+-Kannan G
 
 ## 🎉 Acknowledgements <a name = "acknowledgement"></a>
 - Hat tip to anyone whose code was used
-- Inspiration
-- References
+- Books
+- Online Tutorials
