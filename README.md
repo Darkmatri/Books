@@ -75,4 +75,4 @@ Your app is ready to be deployed!
 
 ## 🎉 Screenshots <a name = "Screenshots"></a>
 
- <img width=500px height=200px src="" alt="screenshots"></a>
+ <img width=500px height=200px src="./public/screenshots/Screenshot (88).png" alt="screenshots"></a>
