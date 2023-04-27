@@ -35,13 +35,13 @@ Fully Functional books library website Bibliophile is a responsive book library 
 These instructions will get you the project and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project.
 
 ### Prerequisites
-You need to install the vs code and how to run react on them.
+This project was create with Create React App.
 
 ```
-
+Visual studio code is required.
 ```
 
-### Installing
+### Installing 
 A step by step series of examples that tell you how to get a development env running.
 
 Say what the step will be
@@ -68,13 +68,6 @@ Explain what these tests test and why
 Give an example
 ```
 
-<<<<<<< HEAD
-
-
-=======
->>>>>>> ccb3ef98e38119bc8d4d95dd9750ea018ced0479
-## 🎈 Usage <a name="usage"></a>
-Add notes about how to use the system.
 
 ## 🚀 Deployment <a name = "deployment"></a>
 Add additional notes about how to deploy this on a live system.
