@@ -20,80 +20,60 @@
 ## 📝 Table of Contents
 - [About](#about)
 - [Getting Started](#getting_started)
-- [Deployment](#deployment)
-- [Usage](#usage)
-- [Flow Chart](#flowchart)
-- [TODO](../TODO.md)
-- [Contributing](../CONTRIBUTING.md)
 - [Authors](#authors)
 - [Acknowledgments](#acknowledgement)
 
 ## 🧐 About <a name = "about"></a>
-Fully Functional E-commerce website Swag of India is a responsive e-commerce website. The technologies used in this project are HTML, CSS, Vanilla JavaScript and Bootstrap. There are a few important modules in the project like home page, image carousel, product listing page, product page, cart page, wishlist page etc. The data is accessed using ajax call and then rendered into the webpage using dynamic html template created using string literals. For cart-page we are using localstorage to temporarily storing data before clicking on the checkout button. I took almost 40 - 50 hrs to complete this project. SkillLync helped me by providing the wire-frames for all relevant feature pages
+Fully Functional books library website Bibliophile is a responsive book library website. The technologies used in this project are React js. The data is accessed locally using static html template, I am updating to api so that it can be accessed dynamically. I took almost 40 - 50 hrs to complete this project. SkillLync helped me by providing the strutures and technically   for all relevant feature pages.
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
+These instructions will get you the project and running on your local machine for development and testing purposes.
 
 ### Prerequisites
-What things you need to install the software and how to install them.
+This project was create with Create React App.
 
 ```
-Give examples
+Visual studio code is required.
 ```
+### Installing 
 
-### Installing
-A step by step series of examples that tell you how to get a development env running.
+In the project directory, you can run:
 
-Say what the step will be
+### `npm start`
 
-```
-Give the example
-```
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-And repeat
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-```
-until finished
-```
+### `npm test`
 
-End with an example of getting some data out of the system or using it for a little demo.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## 🔧 Running the tests <a name = "tests"></a>
-Explain how to run the automated tests for this system.
+### `npm run build`
 
-### Break down into end to end tests
-Explain what these tests test and why
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-```
-Give an example
-```
-
-<<<<<<< HEAD
-
-
-=======
->>>>>>> ccb3ef98e38119bc8d4d95dd9750ea018ced0479
-## 🎈 Usage <a name="usage"></a>
-Add notes about how to use the system.
-
-## 🚀 Deployment <a name = "deployment"></a>
-Add additional notes about how to deploy this on a live system.
-
-## ⛏️ Flow Chart <a name = "flowchart"></a>
-
-![bg width:1000px](./swagindiaflowchart.png)
-
-- [MongoDB](https://www.mongodb.com/) - Database
-- [Express](https://expressjs.com/) - Server Framework
-- [VueJs](https://vuejs.org/) - Web Framework
-- [NodeJs](https://nodejs.org/en/) - Server Environment
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
 ## ✍️ Authors <a name = "authors"></a>
-- [@SkillLymc](https://github.com/kylelobo) - FSD
-
-See also the list of [contributors](https://github.com/kylelobo/The-Documentation-Compendium/contributors) who participated in this project.
+-Kannan G
 
 ## 🎉 Acknowledgements <a name = "acknowledgement"></a>
 - Hat tip to anyone whose code was used
-- Inspiration
-- References
+- Books
+- Online Tutorials
+
+## 🎉 Screenshots <a name = "Screenshots"></a>
+
+ <img width=500px height=200px src="./public/screenshots/Screenshot (88).png" alt="screenshots"></a>
+ <img width=500px height=200px src="./public/screenshots/Screenshot (89).png" alt="screenshots"></a>
+ <img width=500px height=200px src="./public/screenshots/Screenshot (90).png" alt="screenshots"></a>
+ <img width=500px height=200px src="./public/screenshots/Screenshot (92).png" alt="screenshots"></a>
+ <img width=500px height=200px src="./public/screenshots/Screenshot (93).png" alt="screenshots"></a>
+ <img width=500px height=200px src="./public/screenshots/Screenshot (94).png" alt="screenshots"></a>
+ <img width=500px height=200px src="./public/screenshots/Screenshot (95).png" alt="screenshots"></a>
