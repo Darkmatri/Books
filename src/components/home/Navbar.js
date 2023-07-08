@@ -15,14 +15,7 @@ const Navbar = () => {
 
             <Bounce left><h1>bibliophile</h1></Bounce>
             
-        <ul className={click ? "nav-menu active":"nav-menu"}>
-            <li>
-                <Link to="/Categories">Categories</Link>
-            </li>
-            <li>
-                <Link to="/Sign">Sign-In</Link>
-            </li>
-        </ul>
+        
         <div className="hamburger" onClick={handleClick}>
             {click ? (
                 <FaTimes size={20} style={{color:"#fff"}} />

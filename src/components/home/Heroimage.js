@@ -23,7 +23,7 @@ const Heroimage = () => {
           <Fade top><p>Hi, Welcome to<br/></p></Fade>
           <Fade bottom><h2>bibliophile</h2></Fade>       
           <div>
-          <Link to="/Categories"><button className="btn">Categories</button></Link>
+          <Link to="/Categories"><button className="btn">Welcome to <br></br> WORLD OF BOOKS</button></Link>
           </div>
         </div>
     </div>

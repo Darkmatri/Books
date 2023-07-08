@@ -45,13 +45,15 @@
 
 .btn{
     width: 250px;
-    color: #000;
-    background: rgb(242, 255, 0);
+    color: #F5F3C1;
+    background: #2F0F5D;
+    /* color: #000;
+    background: rgb(242, 255, 0); */
     cursor: pointer;
     border-radius: 25px;
 }
 .btn:hover{
-    background-color: #999;
+    background-color: #B0DAFF;
     color: #000;
 }
 
