@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html  dir="ltr" lang="en" xml:lang="en">
+<head>
+    <title>Error</title>
+    <link rel="shortcut icon" href="http://kihs1.knet.ca/m25/theme/image.php/superfresh/theme/1524495647/favicon" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="moodle, Error" />
+<script type="text/javascript">
+//<![CDATA[
+var M = {}; M.yui = {};
+M.pageloadstarttime = new Date();
+M.cfg = {"wwwroot":"http:\/\/kihs1.knet.ca\/m25","sesskey":"IsVRXmcaNP","loadingicon":"http:\/\/kihs1.knet.ca\/m25\/theme\/image.php\/superfresh\/core\/1524495647\/i\/loading_small","themerev":"1524495647","slasharguments":1,"theme":"superfresh","jsrev":"1524495647","svgicons":true};var yui1ConfigFn = function(me) {if(/-skin|reset|fonts|grids|base/.test(me.name)){me.type='css';me.path=me.path.replace(/\.js/,'.css');me.path=me.path.replace(/\/yui2-skin/,'/assets/skins/sam/yui2-skin')}};
+var yui2ConfigFn = function(me) {var parts=me.name.replace(/^moodle-/,'').split('-'),component=parts.shift(),module=parts[0],min='-min';if(/-(skin|core)$/.test(me.name)){parts.pop();me.type='css';min=''};if(module){var filename=parts.join('-');me.path=component+'/'+module+'/'+filename+min+'.'+me.type}else me.path=component+'/'+component+'.'+me.type};
+YUI_config = {"debug":false,"base":"http:\/\/kihs1.knet.ca\/m25\/lib\/yuilib\/3.13.0\/","comboBase":"http:\/\/kihs1.knet.ca\/m25\/theme\/yui_combo.php?","combine":true,"filter":null,"insertBefore":"firstthemesheet","groups":{"yui2":{"base":"http:\/\/kihs1.knet.ca\/m25\/lib\/yuilib\/2in3\/2.9.0\/build\/","comboBase":"http:\/\/kihs1.knet.ca\/m25\/theme\/yui_combo.php?","combine":true,"ext":false,"root":"2in3\/2.9.0\/build\/","patterns":{"yui2-":{"group":"yui2","configFn":yui1ConfigFn}}},"moodle":{"name":"moodle","base":"http:\/\/kihs1.knet.ca\/m25\/theme\/yui_combo.php?m\/1524495647\/","combine":true,"comboBase":"http:\/\/kihs1.knet.ca\/m25\/theme\/yui_combo.php?","ext":false,"root":"m\/1524495647\/","patterns":{"moodle-":{"group":"moodle","configFn":yui2ConfigFn}},"filter":null,"modules":{"moodle-core-blocks":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification"]},"moodle-core-popuphelp":{"requires":["moodle-core-tooltip"]},"moodle-core-chooserdialogue":{"requires":["base","panel","moodle-core-notification"]},"moodle-core-formchangechecker":{"requires":["base","event-focus"]},"moodle-core-lockscroll":{"requires":["plugin","base-build"]},"moodle-core-tooltip":{"requires":["base","node","io-base","moodle-core-notification","json-parse","widget-position","widget-position-align","event-outside","cache-base"]},"moodle-core-notification":{"requires":["moodle-core-notification-dialogue","moodle-core-notification-alert","moodle-core-notification-confirm","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-core-notification-dialogue":{"requires":["base","node","panel","escape","event-key","dd-plugin","moodle-core-lockscroll"]},"moodle-core-notification-alert":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-confirm":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-exception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-ajaxexception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-actionmenu":{"requires":["base","event","node-event-simulate"]},"moodle-core-formautosubmit":{"requires":["base","event-key"]},"moodle-core-dock":{"requires":["base","node","event-custom","event-mouseenter","event-resize","escape","moodle-core-dock-loader"]},"moodle-core-dock-loader":{"requires":["escape"]},"moodle-calendar-eventmanager":{"requires":["base","node","event-mouseenter","overlay","moodle-calendar-eventmanager-skin"]},"moodle-course-management":{"requires":["base","node","io-base","moodle-core-notification-exception","json-parse","dd-constrain","dd-proxy","dd-drop","dd-delegate","node-event-delegate"]},"moodle-course-util":{"requires":["node"],"use":["moodle-course-util-base"],"submodules":{"moodle-course-util-base":{},"moodle-course-util-section":{"requires":["node","moodle-course-util-base"]},"moodle-course-util-cm":{"requires":["node","moodle-course-util-base"]}}},"moodle-course-categoryexpander":{"requires":["node","event-key"]},"moodle-qtype_ddwtos-dd":{"requires":["node","dd","dd-drop","dd-constrain"]},"moodle-mod_quiz-autosave":{"requires":["base","node","event","event-valuechange","node-event-delegate","io-form"]},"moodle-block_navigation-navigation":{"requires":["base","io-base","node","event-synthetic","event-delegate","json-parse"]},"moodle-filter_glossary-autolinker":{"requires":["base","node","io-base","json-parse","event-delegate","overlay","moodle-core-notification-alert"]},"moodle-tool_capability-search":{"requires":["base","node"]},"moodle-theme_bootstrapbase-bootstrap":{"requires":["node","selector-css3"]},"moodle-assignfeedback_editpdf-editor":{"requires":["base","event","node","io","graphics","json","event-move","event-resize","querystring-stringify-simple","moodle-core-notification-dialog","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]}}}},"modules":{"core_filepicker":{"name":"core_filepicker","fullpath":"http:\/\/kihs1.knet.ca\/m25\/lib\/javascript.php\/1524495647\/repository\/filepicker.js","requires":["base","node","node-event-simulate","json","async-queue","io-base","io-upload-iframe","io-form","yui2-treeview","panel","cookie","datatable","datatable-sort","resize-plugin","dd-plugin","escape","moodle-core_filepicker"]}}};
+M.yui.loader = {modules: {}};
+
+//]]>
+</script>
+<link rel="stylesheet" type="text/css" href="http://kihs1.knet.ca/m25/theme/yui_combo.php?3.13.0/cssreset/cssreset-min.css&amp;3.13.0/cssfonts/cssfonts-min.css&amp;3.13.0/cssgrids/cssgrids-min.css&amp;3.13.0/cssbase/cssbase-min.css" /><link rel="stylesheet" type="text/css" href="http://kihs1.knet.ca/m25/theme/yui_combo.php?rollup/3.13.0/yui-moodlesimple-min.css" /><script type="text/javascript" src="http://kihs1.knet.ca/m25/theme/yui_combo.php?rollup/3.13.0/yui-moodlesimple-min.js"></script><script type="text/javascript" src="http://kihs1.knet.ca/m25/theme/yui_combo.php?rollup/1524495647/mcore-min.js"></script><script id="firstthemesheet" type="text/css">/** Required in order to fix style inclusion problems in IE with YUI **/</script><link rel="stylesheet" type="text/css" href="http://kihs1.knet.ca/m25/theme/styles.php/superfresh/1524495647/all" />
+<script type="text/javascript" src="http://kihs1.knet.ca/m25/lib/javascript.php/1524495647/lib/javascript-static.js"></script>
+<script type="text/javascript" src="http://kihs1.knet.ca/m25/filter/poodll/flash/embed-compressed.js"></script>
+</head>
+<body id="page-site-index" class="format-site course path-site dir-ltr lang-en yui-skin-sam yui3-skin-sam kihs1-knet-ca--m25 pagelayout-base course-1 context-1 notloggedin side-pre-only has_custom_menu">
+<div class="skiplinks"><a class="skip" href="#maincontent">Skip to main content</a></div>
+<script type="text/javascript">
+//<![CDATA[
+document.body.className += ' jsenabled';
+//]]>
+</script>
+
+
+<div id="page">
+ 
+ <div id="sleft"></div>
+ <div id="sright"></div>
+ <div id="cleftb"></div>
+ <div id="crightb"></div>
+ 	
+<div id="header" class="clearfix"><div id="page-header"></div> <div id="clefttop"></div>
+ <div id="crighttop"></div>
+<div id="stop"></div>
+	<a href="http://kihs1.knet.ca/m25/"><img src='http://kihs1.knet.ca/m25/theme/superfresh/pix/header_logobluewhg.png' alt='logo' id='thelogo' /></a>                
+	<div id="headermenu">
+	<div class="logininfo">You are not logged in. (<a href="http://kihs1.knet.ca/m25/login/index.php">Log in</a>)</div>     
+	</div>
+</div>
+
+<!-- end of logo and menu section -->
+<div id="menuwrap">
+	<div id="custommenu"><div id="custom_menu_1" class="yui3-menu yui3-menu-horizontal javascript-disabled custom-menu"><div class="yui3-menu-content"><ul><li class="yui3-menuitem"><a class="yui3-menuitem-content" title="Home" href="http://kihs1.knet.ca/m25">Home</a></li><li><a class="yui3-menu-label" title="Resources" href="#cm_submenu_1">Resources</a><div id="cm_submenu_1" class="yui3-menu custom_menu_submenu"><div class="yui3-menu-content"><ul><li><a class="yui3-menu-label" title="Documents" href="#cm_submenu_2">Documents</a><div id="cm_submenu_2" class="yui3-menu custom_menu_submenu"><div class="yui3-menu-content"><ul><li class="yui3-menuitem"><a class="yui3-menuitem-content" title="Student Handbook" href="http://kihs1.knet.ca/files/KIHSHandbook2017-18.pdf">Student Handbook</a></li><li class="yui3-menuitem"><a class="yui3-menuitem-content" title="Course Outlines" href="http://kihs1.knet.ca/m25/mod/folder/view.php?id=21396">Course Outlines</a></li><li class="yui3-menuitem"><a class="yui3-menuitem-content" title="Student Awards" href="http://kihs1.knet.ca/files/2017_GraduatesandAwards.pdf">Student Awards</a></li><li class="yui3-menuitem"><a class="yui3-menuitem-content" title="OSSD Requirements" href="http://kihs1.knet.ca/ossdreq">OSSD Requirements</a></li><li class="yui3-menuitem"><a class="yui3-menuitem-content" title="Contact" href="http://kihs1.knet.ca/contact">Contact</a></li></ul></div></div></li><li><a class="yui3-menu-label" title="Library" href="http://kihs1.knet.ca/m25/course/view.php?id=20">Library</a><div id="cm_submenu_3" class="yui3-menu custom_menu_submenu"><div class="yui3-menu-content"><ul><li class="yui3-menuitem"><a class="yui3-menuitem-content" title="Reading Nook" href="http://kihs1.knet.ca/m25/course/view.php?id=20">Reading Nook</a></li><li class="yui3-menuitem"><a class="yui3-menuitem-content" title="Photo Gallery" href="http://kihs1.knet.ca/m25/mod/lightboxgallery/view.php?id=14244">Photo Gallery</a></li></ul></div></div></li><li><a class="yui3-menu-label" title="Contests" href="#cm_submenu_4">Contests</a><div id="cm_submenu_4" class="yui3-menu custom_menu_submenu"><div class="yui3-menu-content"><ul><li class="yui3-menuitem"><a class="yui3-menuitem-content" title="Attendance" href="http://kihs1.knet.ca/m25/pluginfile.php/5472/block_html/content/Student%20Attendance%20Contest%20Term%202a.pdf">Attendance</a></li><li class="yui3-menuitem"><a class="yui3-menuitem-content" title="SAS/Badges" href="http://kihs1.knet.ca/m25/pluginfile.php/5472/block_html/content/Student%20Attendance%20Contest%20Term%202a.pdf">SAS/Badges</a></li></ul></div></div></li></ul></div></div></li><li><a class="yui3-menu-label" title="Partners" href="#cm_submenu_5">Partners</a><div id="cm_submenu_5" class="yui3-menu custom_menu_submenu"><div class="yui3-menu-content"><ul><li><a class="yui3-menu-label" title="Community Homerooms" href="http://kihs1.knet.ca/m25/course/index.php?categoryid=6">Community Homerooms</a><div id="cm_submenu_6" class="yui3-menu custom_menu_submenu"><div class="yui3-menu-content"><ul><li class="yui3-menuitem"><a class="yui3-menuitem-content" title="Bearskin Lake" href="http://kihs1.knet.ca/m25/course/view.php?id=43">Bearskin Lake</a></li><li class="yui3-menuitem"><a class="yui3-menuitem-content" title="Deer Lake" href="http://kihs1.knet.ca/m25/course/view.php?id=44#section-1">Deer Lake</a></li><li class="yui3-menuitem"><a class="yui3-menuitem-content" title="Fort Severn" href="http://kihs1.knet.ca/m25/course/view.php?id=45#section-1">Fort Severn</a></li><li class="yui3-menuitem"><a class="yui3-menuitem-content" title="Fort William" href="http://kihs1.knet.ca/m25/course/view.php?id=46#section-1">Fort William</a></li><li class="yui3-menuitem"><a class="yui3-menuitem-content" title="Grassy Narrows" href="http://kihs1.knet.ca/m25/course/view.php?id=47#section-1">Grassy Narrows</a></li><li class="yui3-menuitem"><a class="yui3-menuitem-content" title="Kejick Bay" href="http://kihs1.knet.ca/m25/course/view.php?id=210">Kejick Bay</a></li><li class="yui3-menuitem"><a class="yui3-menuitem-content" title="Keewaywin" href="http://kihs1.knet.ca/m25/course/view.php?id=49">Keewaywin</a></li><li class="yui3-menuitem"><a class="yui3-menuitem-content" title="M&#039;Chigeeng" href="http://kihs1.knet.ca/m25/course/view.php?id=51">M'Chigeeng</a></li><li class="yui3-menuitem"><a class="yui3-menuitem-content" title="McDowell Lake" href="http://kihs1.knet.ca/m25/course/management.php?categoryid=6&amp;courseid=310">McDowell Lake</a></li><li class="yui3-menuitem"><a class="yui3-menuitem-content" title="Mishkeegogamang" href="http://kihs1.knet.ca/m25/course/view.php?id=52">Mishkeegogamang</a></li><li class="yui3-menuitem"><a class="yui3-menuitem-content" title="Nibinamik" href="http://kihs1.knet.ca/m25/course/view.php?id=54">Nibinamik</a></li><li class="yui3-menuitem"><a class="yui3-menuitem-content" title="North Spirit Lake" href="http://kihs1.knet.ca/m25/course/view.php?id=55">North Spirit Lake</a></li><li class="yui3-menuitem"><a class="yui3-menuitem-content" title="Poplar Hill" href="http://kihs1.knet.ca/m25/course/view.php?id=56">Poplar Hill</a></li><li class="yui3-menuitem"><a class="yui3-menuitem-content" title="Sachigo Lake" href="http://kihs1.knet.ca/m25/course/view.php?id=57">Sachigo Lake</a></li><li class="yui3-menuitem"><a class="yui3-menuitem-content" title="Weagamow" href="http://kihs1.knet.ca/m25/course/view.php?id=59">Weagamow</a></li><li class="yui3-menuitem"><a class="yui3-menuitem-content" title="Webequie" href="http://kihs1.knet.ca/m25/course/management.php?categoryid=6&amp;courseid=307">Webequie</a></li><li class="yui3-menuitem"><a class="yui3-menuitem-content" title="Independent Students" href="http://kihs1.knet.ca/m25/course/view.php?id=48">Independent Students</a></li></ul></div></div></li><li><a class="yui3-menu-label" title="Keewaytinook Okimakanak" href="http://kochiefs.ca">Keewaytinook Okimakanak</a><div id="cm_submenu_7" class="yui3-menu custom_menu_submenu"><div class="yui3-menu-content"><ul><li class="yui3-menuitem"><a class="yui3-menuitem-content" title="KO Chiefs" href="http://kochiefs.ca">KO Chiefs</a></li><li class="yui3-menuitem"><a class="yui3-menuitem-content" title="K-Net Email" href="http://knet.ca/email">K-Net Email</a></li><li class="yui3-menuitem"><a class="yui3-menuitem-content" title="K-Net Home" href="http://knet.ca">K-Net Home</a></li><li class="yui3-menuitem"><a class="yui3-menuitem-content" title="K-Net Service" href="http://knet.ca/servicedesk">K-Net Service</a></li><li class="yui3-menuitem"><a class="yui3-menuitem-content" title="Communities" href="http://communities.knet.ca/">Communities</a></li><li><a class="yui3-menu-label" title="SchoolNet" href="http://firstnationschools.ca/">SchoolNet</a><div id="cm_submenu_8" class="yui3-menu custom_menu_submenu"><div class="yui3-menu-content"><ul><li class="yui3-menuitem"><a class="yui3-menuitem-content" title="NED" href="http://ned.knet.ca">NED</a></li></ul></div></div></li></ul></div></div></li><li><a class="yui3-menu-label" title="Outside Partners" href="#cm_submenu_9">Outside Partners</a><div id="cm_submenu_9" class="yui3-menu custom_menu_submenu"><div class="yui3-menu-content"><ul><li class="yui3-menuitem"><a class="yui3-menuitem-content" title="Paul Martin" href="http://www.paulmartin.ca">Paul Martin</a></li><li class="yui3-menuitem"><a class="yui3-menuitem-content" title="Indspire" href="https://indspire.ca/">Indspire</a></li></ul></div></div></li></ul></div></div></li><li><a class="yui3-menu-label" title="Courses" href="http://kihs1.knet.ca/m25/course/">Courses</a><div id="cm_submenu_10" class="yui3-menu custom_menu_submenu"><div class="yui3-menu-content"><ul><li><a class="yui3-menu-label" title="Grade 9" href="http://kihs1.knet.ca/m25/course/index.php?categoryid=2">Grade 9</a><div id="cm_submenu_11" class="yui3-menu custom_menu_submenu"><div class="yui3-menu-content"><ul><li class="yui3-menuitem"><a class="yui3-menuitem-content" title="Term 1" href="http://kihs1.knet.ca/m25/course/index.php?categoryid=22">Term 1</a></li><li class="yui3-menuitem"><a class="yui3-menuitem-content" title="Term 2" href="http://kihs1.knet.ca/m25/course/index.php?categoryid=23">Term 2</a></li><li class="yui3-menuitem"><a class="yui3-menuitem-content" title="Term 3" href="http://kihs1.knet.ca/m25/course/index.php?categoryid=24">Term 3</a></li><li class="yui3-menuitem"><a class="yui3-menuitem-content" title="Term 4" href="http://kihs1.knet.ca/m25/course/index.php?categoryid=25">Term 4</a></li></ul></div></div></li><li><a class="yui3-menu-label" title="Grade 10" href="http://kihs1.knet.ca/m25/course/index.php?categoryid=3">Grade 10</a><div id="cm_submenu_12" class="yui3-menu custom_menu_submenu"><div class="yui3-menu-content"><ul><li class="yui3-menuitem"><a class="yui3-menuitem-content" title="Term 1" href="http://kihs1.knet.ca/m25/course/index.php?categoryid=26">Term 1</a></li><li class="yui3-menuitem"><a class="yui3-menuitem-content" title="Term 2" href="http://kihs1.knet.ca/m25/course/index.php?categoryid=27">Term 2</a></li><li class="yui3-menuitem"><a class="yui3-menuitem-content" title="Term 3" href="http://kihs1.knet.ca/m25/course/index.php?categoryid=28">Term 3</a></li><li class="yui3-menuitem"><a class="yui3-menuitem-content" title="Term 4" href="http://kihs1.knet.ca/m25/course/index.php?categoryid=29">Term 4</a></li></ul></div></div></li><li><a class="yui3-menu-label" title="Grade 11" href="http://kihs1.knet.ca/m25/course/index.php?categoryid=4">Grade 11</a><div id="cm_submenu_13" class="yui3-menu custom_menu_submenu"><div class="yui3-menu-content"><ul><li class="yui3-menuitem"><a class="yui3-menuitem-content" title="Term 1" href="http://kihs1.knet.ca/m25/course/index.php?categoryid=30">Term 1</a></li><li class="yui3-menuitem"><a class="yui3-menuitem-content" title="Term2" href="http://kihs1.knet.ca/m25/course/index.php?categoryid=31">Term2</a></li><li class="yui3-menuitem"><a class="yui3-menuitem-content" title="Term 3" href="http://kihs1.knet.ca/m25/course/index.php?categoryid=32">Term 3</a></li><li class="yui3-menuitem"><a class="yui3-menuitem-content" title="Term 4" href="http://kihs1.knet.ca/m25/course/index.php?categoryid=33">Term 4</a></li></ul></div></div></li><li><a class="yui3-menu-label" title="Grade 12" href="http://kihs1.knet.ca/m25/course/index.php?categoryid=5">Grade 12</a><div id="cm_submenu_14" class="yui3-menu custom_menu_submenu"><div class="yui3-menu-content"><ul><li class="yui3-menuitem"><a class="yui3-menuitem-content" title="Term 1" href="http://kihs1.knet.ca/m25/course/index.php?categoryid=17">Term 1</a></li><li class="yui3-menuitem"><a class="yui3-menuitem-content" title="Term 2" href="http://kihs1.knet.ca/m25/course/index.php?categoryid=18">Term 2</a></li><li class="yui3-menuitem"><a class="yui3-menuitem-content" title="Term 3" href="http://kihs1.knet.ca/m25/course/index.php?categoryid=19">Term 3</a></li><li class="yui3-menuitem"><a class="yui3-menuitem-content" title="Term 4" href="http://kihs1.knet.ca/m25/course/index.php?categoryid=20">Term 4</a></li></ul></div></div></li><li class="yui3-menuitem"><a class="yui3-menuitem-content" title="Student Success" href="http://kihs1.knet.ca/m25/course/index.php?categoryid=7">Student Success</a></li><li class="yui3-menuitem"><a class="yui3-menuitem-content" title="AYEP" href="http://kihs1.knet.ca/m25/course/manage.php?categoryid=34">AYEP</a></li><li class="yui3-menuitem"><a class="yui3-menuitem-content" title="PLAR" href="http://kihs1.knet.ca/m25/course/index.php?categoryid=9">PLAR</a></li><li class="yui3-menuitem"><a class="yui3-menuitem-content" title="Co-Op" href="http://kihs1.knet.ca/m25/course/index.php?categoryid=10">Co-Op</a></li></ul></div></div></li></ul></div></div></div>
+</div>
+
+<!-- start of main content wraps -->
+	<div id="ie6-container-wrap">
+		<div id="outercontainer">
+			<div id="container">
+				<div id="innercontainer">
+	
+	<!-- start of navbar -->
+        <div class="navbar clearfix">
+          <div class="breadcrumb"><span class="accesshide">Page path</span><nav><ul><li><a href="http://kihs1.knet.ca/m25/">Home</a></li></ul></nav></div>
+          <div class="navbutton"> </div>
+        </div>
+<!-- end of navbar -->
+					
+	
+	<!-- start OF moodle CONTENT -->
+				<div id="page-content">
+        			<div id="region-main-box">
+            			<div id="region-post-box">
+            
+                				<div id="region-main-wrap">
+                    				<div id="region-main">
+                        				<div class="region-content">
+         
+                            			<div role="main"><span id="maincontent"></span><div data-rel="fatalerror" class="box errorbox"><p class="errormessage">Can not find data record in database table context.</p><p class="errorcode"><a href="http://docs.moodle.org/26/en/error/moodle/invalidrecord">More information about this error</a></p></div><div class="continuebutton"><form method="get" action="http://kihs1.knet.ca/m25/"><div><input type="submit" value="Continue" /></div></form></div></div>                        				</div>
+                    				</div>
+                				</div>
+                
+                	               		<div id="region-pre" class="block-region">
+                    	<div class="region-content">
+                   
+        
+                        	<a href="#sb-1" class="skip-block">Skip Navigation</a><div id="inst1851" class="block_navigation  block" role="navigation" data-block="navigation" data-instanceid="1851" aria-labelledby="instance-1851-header" data-dockable="1"><div class="header"><div class="title"><div class="block_action"></div><h2 id="instance-1851-header">Navigation</h2></div></div><div class="content"><ul class="block_tree list"><li class="type_unknown depth_1 contains_branch current_branch" aria-expanded="true"><p class="tree_item branch active_tree_node canexpand navigation_node"><a href="http://kihs1.knet.ca/m25/">Home</a></p><ul><li class="type_activity depth_2 item_with_icon"><p class="tree_item leaf hasicon"><a title="Folder" href="http://kihs1.knet.ca/m25/mod/folder/view.php?id=83"><img alt="Folder" class="smallicon navicon" title="Folder" src="http://kihs1.knet.ca/m25/theme/image.php/superfresh/folder/1524495647/icon" />Course Outlines</a></p></li>
+<li class="type_activity depth_2 item_with_icon"><p class="tree_item leaf hasicon"><a title="Forum" href="http://kihs1.knet.ca/m25/mod/forum/view.php?id=84"><img alt="Forum" class="smallicon navicon" title="Forum" src="http://kihs1.knet.ca/m25/theme/image.php/superfresh/forum/1524495647/icon" />Site news</a></p></li>
+<li class="type_activity depth_2 item_with_icon"><p class="tree_item leaf hasicon"><a title="Folder" href="http://kihs1.knet.ca/m25/mod/folder/view.php?id=21396"><img alt="Folder" class="smallicon navicon" title="Folder" src="http://kihs1.knet.ca/m25/theme/image.php/superfresh/folder/1524495647/icon" />Outlines</a></p></li>
+<li class="type_activity depth_2 collapsed item_with_icon"><p class="tree_item leaf hasicon" id="expandable_branch_40_29403"><a title="Glossary" href="http://kihs1.knet.ca/m25/mod/glossary/view.php?id=29403"><img alt="Glossary" class="smallicon navicon" title="Glossary" src="http://kihs1.knet.ca/m25/theme/image.php/superfresh/glossary/1524495647/icon" />Anishinabemowin Translations</a></p></li>
+<li class="type_system depth_2 collapsed contains_branch" aria-expanded="false"><p class="tree_item branch" id="expandable_branch_0_courses"><a href="http://kihs1.knet.ca/m25/course/index.php">Courses</a></p></li></ul></li></ul></div></div><span id="sb-1" class="skip-block-to"></span>                    	</div>
+                	</div>
+                	                
+                	                
+            			</div>
+        			</div>
+   				 </div>
+    <!-- END OF CONTENT --> 
+      
+     			 <div id="jcontrols_bottom">
+      			</div>
+	
+	<!-- Containers end div above clears both -->
+				</div>
+			</div>
+		</div>	
+	</div>
+
+
+<div id="falsebottom"><div id="sbottom"></div></div>
+
+</div>
+
+<!-- START OF FOOTER -->
+	<div id="footer-wrap"><div id="page-footer"></div>
+		<div id="footer-container">
+			<div id="footer">
+		
+			 <div class="logininfo">You are not logged in. (<a href="http://kihs1.knet.ca/m25/login/index.php">Log in</a>)</div><div class="sitelink"><a title="Moodle" href="http://moodle.org/"><img style="width:100px;height:30px" src="http://kihs1.knet.ca/m25/theme/image.php/superfresh/core/1524495647/moodlelogo" alt="moodlelogo" /></a></div>         
+    			
+        
+			</div>
+		</div>
+	</div>
+
+<script type="text/javascript" src="http://kihs1.knet.ca/m25/filter/poodll/flash/swfobject_22.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+M.str = {"moodle":{"lastmodified":"Last modified","name":"Name","error":"Error","info":"Information","ok":"OK","viewallcourses":"View all courses","morehelp":"More help","loadinghelp":"Loading...","cancel":"Cancel","yes":"Yes","confirm":"Confirm","no":"No","areyousure":"Are you sure?","closebuttontitle":"Close","unknownerror":"Unknown error"},"repository":{"type":"Type","size":"Size","invalidjson":"Invalid JSON string","nofilesattached":"No files attached","filepicker":"File picker","logout":"Logout","nofilesavailable":"No files available","norepositoriesavailable":"Sorry, none of your current repositories can return files in the required format.","fileexistsdialogheader":"File exists","fileexistsdialog_editor":"A file with that name has already been attached to the text you are editing.","fileexistsdialog_filemanager":"A file with that name has already been attached","renameto":"Rename to \"{$a}\"","referencesexist":"There are {$a} alias\/shortcut files that use this file as their source","select":"Select"},"block":{"addtodock":"Move this to the dock","undockitem":"Undock this item","dockblock":"Dock {$a} block","undockblock":"Undock {$a} block","undockall":"Undock all","hidedockpanel":"Hide the dock panel","hidepanel":"Hide panel"},"langconfig":{"thisdirectionvertical":"btt"},"admin":{"confirmation":"Confirmation"}};
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+var navtreeexpansions1851 = [{"id":"expandable_branch_40_29403","key":"29403","type":40},{"id":"expandable_branch_0_courses","key":"courses","type":0}];
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+YUI().use('node', function(Y) {
+M.util.load_flowplayer();
+setTimeout("fix_column_widths()", 20);
+M.yui.galleryversion="2010.04.08-12-35";Y.use("moodle-core-dock-loader",function() {M.core.dock.loader.initLoader();
+});
+M.yui.galleryversion="2010.04.08-12-35";Y.use("moodle-filter_glossary-autolinker",function() {M.filter_glossary.init_filter_autolinking({"courseid":0});
+});
+M.yui.galleryversion="2010.04.08-12-35";Y.use("moodle-block_navigation-navigation",function() {M.block_navigation.init_add_tree({"id":"1851","instance":"1851","candock":true,"courselimit":"20","expansionlimit":0});
+});
+M.yui.galleryversion="2010.04.08-12-35";Y.use("moodle-block_navigation-navigation",function() {M.block_navigation.init_add_tree({"id":"5","instance":"5","candock":true});
+});
+M.yui.galleryversion="2010.04.08-12-35";Y.use("node-menunav",function() {(function(){M.core_custom_menu.init(Y, "custom_menu_1");
+})();
+});
+M.util.help_popups.setup(Y);
+M.yui.galleryversion="2010.04.08-12-35";Y.use("moodle-core-popuphelp",function() {M.core.init_popuphelp();
+});
+M.util.init_block_hider(Y, {"id":"inst1851","title":"Navigation","preference":"block1851hidden","tooltipVisible":"Hide Navigation block","tooltipHidden":"Show Navigation block"});
+ M.util.js_pending('random5c2411de858853'); Y.on('domready', function() { M.util.js_complete("init");  M.util.js_complete('random5c2411de858853'); });
+
+});
+//]]>
+</script>
+</body>
+</html>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
